@@ -1,11 +1,31 @@
 # Functional Analysis of Darwin Sea Level Pressure (1951-2025)
 
+<table width="100%">
+  <tr>
+    <td align="center" width="33.33%">
+      <img src="image/S00.png" width="300">
+    </td>
+    <td align="center" width="33.33%">
+      <img src="image/S01.png" width="300">
+    </td>
+    <td align="center" width="33.33%">
+      <img src="image/S02.png" width="300">
+    </td>
+  </tr>
+</table>
+
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![FDA](https://img.shields.io/badge/Functional_Data_Analysis-009688?style=for-the-badge)
+![Statistics](https://img.shields.io/badge/Statistics-FF6B6B?style=for-the-badge)
+![Data Science](https://img.shields.io/badge/Data_Science-4ECDC4?style=for-the-badge)
+![Time Series](https://img.shields.io/badge/Time_Series-45B7D1?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-📋 Overview  
-This project applies Functional Data Analysis **(FDA)** techniques to analyze 75 years (1951-2025) of monthly Darwin Sea Level Pressure (SLP) data. The analysis transforms discrete monthly observations into continuous functions to study **seasonal patterns, interannual variability, and ENSO-related pressure anomalies**.
+## 📋 Project Summary
+- **What I built:** A complete Functional Data Analysis pipeline analyzing 75 years of climate data
+- **Impact:** Identified 79.71% of pressure variation explained by just 2 components
+- **Skills demonstrated:** R, FDA, FPCA, Statistical Modeling, Data Visualization, Climate Science
+
 
 ##  🎯 Key Objectives
 - Convert discrete SLP measurements into smooth functional curves using Fourier basis functions
@@ -13,13 +33,38 @@ This project applies Functional Data Analysis **(FDA)** techniques to analyze 75
 - Perform Functional Principal Component Analysis (FPCA) to identify dominant modes of variation
 - Apply VARIMAX rotation to enhance the physical interpretability of principal components
 
+## 🛠️ Technical Skills Demonstrated
+
+| Category | Technologies |
+|----------|--------------|
+| **Programming** | R, RMarkdown |
+| **Statistical Methods** | Functional Data Analysis (FDA), FPCA, VARIMAX Rotation, GCV, Time Series |
+| **Data Visualization** | 3D Surface Plots, Contour Plots, Phase-Plane Analysis, Scree Plots |
+| **Tools** | GitHub, RStudio, fda Package |
+| **Domain Knowledge** | Climatology, ENSO, Australian Monsoon, Seasonal Pattern Analysis |
+
+## 📊 Key Achievements  
+- **79.71%** of total variation explained by first 2 principal components  
+- **50.27%** variance captured by summer ENSO signal after rotation
+- **75 years** of climate data successfully modeled as continuous functions
+- **12 months** of seasonal patterns identified and quantified
+- RMS residual improved by **10.6%** (0.94 → 0.84) through manual λ selection
+
+## 🧠 Key Challenges & Solutions
+
+| Challenge | My Solution | Outcome |
+|-----------|-------------|---------|
+| GCV suggested λ=1 but curve was underfit | Manually selected λ=0.1 based on visual diagnostics | RMS residual improved from 0.94 → 0.84 |
+| PCA components were hard to interpret physically | Applied VARIMAX rotation | Separated summer ENSO from winter monsoon signals |
+| Discrete monthly data lacks continuity | Used Fourier basis smoothing | Captured smooth annual pressure cycles |
+
+
 ## 📊  Dataset
 - Source: Darwin, Australia sea level pressure records
 - Time Period: 1951 - 2025 (75 years)
 - Resolution: Monthly observations (12 months per year)
 - Format: 75 rows × 12 columns matrix (years × months)
 - Units: mb relative to 1000 mb
-
 
 ## 🚀 Getting Started
 
@@ -91,4 +136,5 @@ This project is for academic purposes. Please cite appropriately if using the co
 [![https://www.linkedin.com/in/sanjibsamadder/](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
 [![https://github.com/sanjibSamadder](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanjibSamadder)
 [![skilled.sanjib@gmail.com](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+
 
