@@ -1,4 +1,4 @@
-# darwin_slp_fda
-Description: Functional Data Analysis of Darwin sea level pressure (1951-2025). Fourier smoothing, FPCA & VARIMAX rotation identify seasonal patterns & ENSO signals. First 2 PCs explain 79.7% variation - separating summer ENSO from winter monsoon signals.
-
-Tags: functional-data-analysis, fda, darwin-slp, enso, climatology, pca, varimax, rstats
+# Functional Analysis of Darwin Sea Level Pressure (1951-2025)
+https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white
+https://img.shields.io/badge/Functional_Data_Analysis-009688?style=for-the-badge
+https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge
