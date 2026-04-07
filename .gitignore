@@ -6,6 +6,5 @@
 .Rhistory
 .Rproj.user/
 
-# Data files
-*.csv
-*.xlsx
+
+
