@@ -7,7 +7,7 @@
 📋 Overview  
 This project applies Functional Data Analysis **(FDA)** techniques to analyze 75 years (1951-2025) of monthly Darwin Sea Level Pressure (SLP) data. The analysis transforms discrete monthly observations into continuous functions to study **seasonal patterns, interannual variability, and ENSO-related pressure anomalies**.
 
-🎯 ## Key Objectives
+##  🎯 Key Objectives
 - Convert discrete SLP measurements into smooth functional curves using Fourier basis functions
 - Compute and interpret functional descriptive statistics (mean, standard deviation, covariance)
 - Perform Functional Principal Component Analysis (FPCA) to identify dominant modes of variation
