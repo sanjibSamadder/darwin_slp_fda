@@ -20,6 +20,30 @@ This project applies Functional Data Analysis **(FDA)** techniques to analyze 75
 - Format: 75 rows × 12 columns matrix (years × months)
 - Units: mb relative to 1000 mb
 
+## ![Description of image](image/S1.png)
 
-![Description of image](image/Link.jpg)
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+- git clone https://github.com/yourusername/darwin-slp-fda.git
+- cd darwin-slp-fda
+### 2. Launch R or RStudio
+Open RStudio or your preferred R environment.
+###  3. Install Required Package & Load fda Library
+- install.packages("fda")
+- library(fda)
+### 5. Read and Prepare the Data
+![Description of image](image/S2.png)
+
+### 6. Set Up Fourier Basis for Smoothing
+![Description of image](image/S3.png)
+
+### 7. Perform Smoothing with Chosen λ
+![Description of image](image/S4.png)
+
+### 8. Compute Functional Statistics
+![Description of image](image/S5.png)
+
+### 9. Perform FPCA
+![Description of image](image/S6.png)
 
