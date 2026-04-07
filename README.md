@@ -13,7 +13,7 @@ This project applies Functional Data Analysis **(FDA)** techniques to analyze 75
 - Perform Functional Principal Component Analysis (FPCA) to identify dominant modes of variation
 - Apply VARIMAX rotation to enhance the physical interpretability of principal components
 
-📊 ## Dataset
+## 📊  Dataset
 - Source: Darwin, Australia sea level pressure records
 - Time Period: 1951 - 2025 (75 years)
 - Resolution: Monthly observations (12 months per year)
