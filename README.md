@@ -4,7 +4,7 @@
 ![FDA](https://img.shields.io/badge/Functional_Data_Analysis-009688?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-📋 Overview
+📋 Overview /n
 This project applies Functional Data Analysis (FDA) techniques to analyze 75 years (1951-2025) of monthly Darwin Sea Level Pressure (SLP) data. The analysis transforms discrete monthly observations into continuous functions to study seasonal patterns, interannual variability, and ENSO-related pressure anomalies.
 
 🎯 Key Objectives
