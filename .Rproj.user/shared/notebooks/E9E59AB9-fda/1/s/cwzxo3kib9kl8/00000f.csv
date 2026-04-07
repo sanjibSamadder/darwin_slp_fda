@@ -1,6 +1,0 @@
-"0","# Apply VARIMAX rotation"
-"0","darwin_pca_rotated = varmx.pca.fd(darwin_pca)"
-"0",""
-"0","# Plot rotated principal components"
-"0","par(mfrow = c(2, 1), mar = c(1, 2, 3, 2))"
-"0","plot.pca.fd(darwin_pca_rotated, expand = 1.5)"

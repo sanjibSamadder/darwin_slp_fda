@@ -1,1 +1,0 @@
-"0","lines(1:neig, c[1] + c[2] * (1:neig), lty = 2, col = ""red"")"

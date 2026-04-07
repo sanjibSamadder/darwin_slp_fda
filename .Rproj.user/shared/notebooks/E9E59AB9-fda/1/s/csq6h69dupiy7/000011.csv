@@ -1,2 +1,0 @@
-"0","library(fda)"
-"0","data <- as.matrix(read.table(""data/fda-SLP.dat""))"
