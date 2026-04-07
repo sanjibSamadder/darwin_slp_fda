@@ -130,6 +130,18 @@ Sanjib Samadder | Data Scientist
 ## 📖 License
 This project is for academic purposes. Please cite appropriately if using the code or methodology.
 
+## 📁 Repository Structure
+
+- `README.md` - Project documentation
+- `.gitignore` - Git ignore rules  
+- `darwin_slp_fda_complete_r_solution.Rmd` - R Markdown analysis script
+- `darwin_slp_fda_complete_r_solution.pdf` - Rendered analysis report
+- `data/` - Sea level pressure dataset
+- `image/` - Visualizations and plots
+  - `S00.png` to `S07.png` - image for code and header
+  - `Link.jpg` - my inage for test 
+
+
 ### Happy Analyzing! 📊
 
 📫 **Connect with me:**
