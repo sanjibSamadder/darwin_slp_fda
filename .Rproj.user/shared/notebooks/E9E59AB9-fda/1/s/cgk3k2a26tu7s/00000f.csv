@@ -1,0 +1,7 @@
+"0","par(mfrow = c(2, 2), mar = c(4, 4, 3, 2))"
+"0",""
+"0","# GCV for smoothing parameter selection"
+"0","plot(loglam, gcvsave, type='b', lwd=2, "
+"0","     ylab=expression(GCV(lambda)),"
+"0","     xlab=expression(log[10](lambda)),"
+"0","     main=""GCV for Smoothing Parameter Selection"")"

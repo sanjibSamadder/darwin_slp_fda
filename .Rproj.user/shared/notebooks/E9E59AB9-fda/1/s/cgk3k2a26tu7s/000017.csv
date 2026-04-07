@@ -1,0 +1,5 @@
+"0",""
+"0","#All 75 smoothed curves"
+"0","invisible(plot(darwin_slp_fd, lwd=0.8, col=rainbow(75), "
+"0","     xlab=""Month"", ylab=""SLP (mb relative to 1000 mb)"","
+"0","     main=""Smoothed all 75 Years (1951-2025)""))"

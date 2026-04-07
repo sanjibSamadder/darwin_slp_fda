@@ -1,0 +1,4 @@
+"0","# Contour plot of covariance matrix"
+"0","contour(time, time, slp_covariance_mat, "
+"0","        xlab=""Month"", ylab=""Month"", lwd=2, labcex=1, "
+"0","        main=""Contour Plot - Covariance Surface"")"

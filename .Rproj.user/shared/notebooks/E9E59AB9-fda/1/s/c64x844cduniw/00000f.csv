@@ -1,0 +1,7 @@
+"0","mean_slp = mean.fd(darwin_slp_fd) # calculating mean "
+"0","stddev_slp = std.fd(darwin_slp_fd) # creating standard deviation function"
+"0",""
+"0","# Creating plots"
+"0","par(mfrow = c(1, 2))"
+"0","invisible(plot(mean_slp, lwd=2, xlab=""Month"", ylab=""Pressure (mb relative to 1000 mb)"", "
+"0","     main=""Pressure Mean""))"
