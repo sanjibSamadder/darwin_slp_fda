@@ -1,4 +1,4 @@
-# Functional Analysis of Darwin Sea Level Pressure (1951-2025)
+# Functional Analysis of Darwin Sea Level Pressure (1951-2025) 
 
 <table width="100%">
   <tr>
